@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+ body{
+     font-family: 'Ultra', serif;
+     text-align: center;
+     background:url(/Images/wallpaperflare.com_wallpaper\ \(3\).jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ }
+textarea{
+    width: 80%;
+    height:15vh;
+    text-align: center;
+    background-color: rgba(173, 2, 25, 0.349);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#output{
+    border: 1px solid black;
+    width: 80%;
+    height:15vh;
+    margin: auto;
+    background-color: rgba(3, 8, 8, 0.438);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+h1{
+    color: yellow;
+    font-weight: 50;
+}
+#btn-translate{
+    background-color: wheat;
+    height: 50px;
+    width: 150px;
+  border-radius: 10px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+p{
+    color: aliceblue;
+}
