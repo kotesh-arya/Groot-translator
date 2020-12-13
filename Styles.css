@@ -1,43 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
- body{
-     font-family: 'Ultra', serif;
-     text-align: center;
-     background:url(/Images/wallpaperflare.com_wallpaper\ \(3\).jpg) ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
- }
-textarea{
-    width: 80%;
-    height:15vh;
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+body {
+    font-family: 'East Sea Dokdo', cursive;
     text-align: center;
-    background-color: rgba(173, 2, 25, 0.349);
+    background: url(/Images/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+textarea {
+    width: 80%;
+    height: 15vh;
+    text-align: center;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    outline: none;
+    background: linear-gradient(10deg,#b8b5a6,white);
 }
-#output{
+
+#output {
     border: 1px solid black;
     width: 80%;
-    height:15vh;
+    height: 15vh;
     margin: auto;
-    background-color: rgba(3, 8, 8, 0.438);
+    background-color: #17141b;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    color: white;
+    font-size: rem;
+
 }
-h1{
-    color: yellow;
+
+h1 {
+    color: rgb(243, 67, 23);
     font-weight: 50;
+    font-size: 3.5rem;
 }
-#btn-translate{
+
+#btn-translate {
     background-color: wheat;
     height: 50px;
     width: 150px;
-  border-radius: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
 }
-img{
+
+#btn-translate:hover {
+    background-color: whitesmoke;
+}
+
+img {
     width: 100%;
     height: auto;
 }
-p{
+
+p {
     color: aliceblue;
 }
